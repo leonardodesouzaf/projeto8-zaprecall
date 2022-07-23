@@ -1,0 +1,31 @@
+.questions-logo-title{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    transform: rotate(0.58deg);
+    margin-top: 42px;
+    box-sizing: border-box;
+}
+
+.questions-logo-title p{
+    width: 54.13vw;
+}
+
+.questions-logo-title img{
+    width: 13.86vw;
+}
+
+.questions-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
