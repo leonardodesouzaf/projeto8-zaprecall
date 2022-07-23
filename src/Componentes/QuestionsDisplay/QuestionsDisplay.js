@@ -18,12 +18,12 @@ export default function QuestionsDisplay(){
     let questionProps = questionData.map((question,index) => <Question key={index} number={index+1} question={question.question} answer={question.answer} />);
     return(
         <div className="questions-display">
-            <Link to="/">Voltar</Link>
             <div className="questions-logo-title">
                 <img src={logo} alt='logo'></img>
                 <p>ZapRecall</p>
             </div>
             {questionProps}
+            <div className="footer-questions-display"><p>0/4 CONCLUÍDOS</p></div>
         </div>
     )
 }
