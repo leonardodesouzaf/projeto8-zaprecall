@@ -1,7 +1,7 @@
 import "./styles.css";
 import { Link } from "react-router-dom";
 import logo from "./assets/logo-pequeno.png";
-import Question from "../Question/Question";
+import Question from "./Question";
 
 export default function QuestionsDisplay(){
     const questionData = [
@@ -14,12 +14,13 @@ export default function QuestionsDisplay(){
         {question:"Usamos props para ...", answer:"Passar diferentes informações para componentes "},
         {question:"Usamos estado (state) para ...", answer:"Dizer para o React quais informações quando atualizadas devem renderizar a tela novamente"},
     ];
-    let questionProps = questionData.map(question => <Question question={question.question} answer={question.answer} />);
+    questionData.sort(() => Math.random() - 0.5);
+    let questionProps = questionData.map((question,index) => <Question key={index} number={index+1} question={question.question} answer={question.answer} />);
     return(
         <div className="questions-display">
             <Link to="/">Voltar</Link>
             <div className="questions-logo-title">
-                <img src={logo}></img>
+                <img src={logo} alt='logo'></img>
                 <p>ZapRecall</p>
             </div>
             {questionProps}

@@ -30,3 +30,32 @@
     align-items: center;
     width: 100%;
 }
+
+.question{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 80vw;
+    margin-top: 25px;
+    height: 65px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.question p{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.question ion-icon{
+    font-size: 25px;
+    color: #333333;
+}
