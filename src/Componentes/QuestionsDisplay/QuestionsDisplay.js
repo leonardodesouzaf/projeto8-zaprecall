@@ -2,6 +2,8 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 import logo from "./assets/logo-pequeno.png";
 import Question from "./Question";
+import React from 'react';
+import Footer from "./Footer";
 
 export default function QuestionsDisplay(){
     const questionData = [
@@ -15,7 +17,8 @@ export default function QuestionsDisplay(){
         {question:"Usamos estado (state) para ...", answer:"Dizer para o React quais informações quando atualizadas devem renderizar a tela novamente"},
     ];
     questionData.sort(() => Math.random() - 0.5);
-    let questionProps = questionData.map((question,index) => <Question key={index} number={index+1} question={question.question} answer={question.answer} />);
+    let [footerType, setFooterType] = React.useState(0);
+    let questionProps = questionData.map((question,index) => <Question key={index} number={index+1} question={question.question} answer={question.answer} footer={setFooterType}/>);
     return(
         <div className="questions-display">
             <div className="questions-logo-title">
@@ -23,7 +26,7 @@ export default function QuestionsDisplay(){
                 <p>ZapRecall</p>
             </div>
             {questionProps}
-            <div className="footer-questions-display"><p>0/4 CONCLUÍDOS</p></div>
+            <Footer type={footerType}/>
         </div>
     )
 }

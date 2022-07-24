@@ -195,3 +195,52 @@
     padding-right: 4.65px;
     box-sizing: border-box;
 }
+
+.not-remember{
+    color: #FF3030;
+    text-decoration-line: line-through;
+}
+
+.not-remember p{
+    color: #FF3030;
+}
+
+.not-remember ion-icon{
+    color: #FF3030;
+}
+
+.almost-not-remember{
+    color: #FF922E;
+    text-decoration-line: line-through;
+}
+
+.almost-not-remember p{
+    color: #FF922E;
+}
+
+.almost-not-remember ion-icon{
+    color: #FF922E;
+}
+
+.remember{
+    color: #2FBE34;
+    text-decoration-line: line-through;
+}
+
+.remember p{
+    color: #2FBE34;
+}
+
+.remember ion-icon{
+    color: #2FBE34;
+}
+
+.footer-icons{
+    display: flex;
+}
+
+.footer-questions-display{
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+}
