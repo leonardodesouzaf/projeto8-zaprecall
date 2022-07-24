@@ -18,14 +18,13 @@ export default function QuestionsDisplay(){
     ];
     questionData.sort(() => Math.random() - 0.5);
     let [footerType, setFooterType] = React.useState(0);
-    let questionProps = questionData.map((question,index) => <Question key={index} number={index+1} question={question.question} answer={question.answer} footer={setFooterType}/>);
     return(
         <div className="questions-display">
             <div className="questions-logo-title">
                 <img src={logo} alt='logo'></img>
                 <p>ZapRecall</p>
             </div>
-            {questionProps}
+            {questionData.map((question,index) => <Question key={index} number={index+1} question={question.question} answer={question.answer} setFooterType={setFooterType}/>)}
             <Footer type={footerType}/>
         </div>
     )
