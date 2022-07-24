@@ -33,7 +33,7 @@ export default function Question(props){
 
     function defineQuestion(option){
         if(option === 1){
-            props.footer(1);
+            props.footer([option, props.number]);
             setQuestionContent(
                 <div className="question not-remember">
                     <p>Pergunta {props.number}</p>
@@ -42,7 +42,7 @@ export default function Question(props){
             );
         }
         if(option === 2){
-            props.footer(2);
+            props.footer([option, props.number]);
             setQuestionContent(
                 <div className="question almost-not-remember">
                     <p>Pergunta {props.number}</p>
@@ -51,7 +51,7 @@ export default function Question(props){
             )
         }
         if(option === 3){
-            props.footer(3);
+            props.footer([option, props.number]);
             setQuestionContent(
                 <div className="question remember">
                     <p>Pergunta {props.number}</p>
