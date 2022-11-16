@@ -12,7 +12,7 @@
 
 ###
 
-<p align="left">This project is a way to train your memory with Active Recall and Spaced Repetition methodologies. Zap! ⚡️ <br>In my eighth project in the full-stack web development course at Driven Education I've made a flashcards app, the page have mobile layout only. This project contains knowledges about how to work with React, how to use State in this and much more. <br>In this project I've used the following technologies: HTML, CSS, JavaScript, React, npm, Node.js, Webpack, Git and GitHub.</p>
+<p align="left">This project is a way to train your memory with Active Recall and Spaced Repetition methodologies. Zap! ⚡️ <br>In my eighth project I've made a flashcards app, the page have mobile layout only. This project contains knowledges about how to work with React, how to use useState on this and much more. <br>In this project I've used the following technologies: HTML, CSS, JavaScript, React, npm, Node.js and Git.</p>
 
 ###
 
@@ -25,15 +25,12 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height="40" width="52" alt="react logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="52" alt="nodejs logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="40" width="52" alt="npm logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original-wordmark.svg" height="40" width="52" alt="webpack logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height="40" width="52" alt="vscode logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" height="40" width="52" alt="git logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" height="40" width="52" alt="github logo"  />
 </div>
 
 ###
 
-<h2 align="left">Autor</h2>
+<h2 align="left">Author</h2>
 
 ###
 
