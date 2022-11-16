@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img height="500" src="https://github.com/leonardodesouzaf/projeto8-zaprecall/blob/main/readmeImg.png?raw=true"  />
+  <img height="500" src="https://github.com/leonardodesouzaf/projeto8-zaprecall/blob/main/readme-img.png?raw=true"  />
 </div>
 
 ###
